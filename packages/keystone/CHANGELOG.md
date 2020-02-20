@@ -1,5 +1,18 @@
 # @keystonejs/keystone
 
+## 5.5.1
+
+### Patch Changes
+
+- [`7ce804a8`](https://github.com/keystonejs/keystone/commit/7ce804a877300709375e5bc14206080ab15aec54) [#2401](https://github.com/keystonejs/keystone/pull/2401) Thanks [@acoreyj](https://github.com/acoreyj)! - Made sure `createRelationships` function in `relationship-utils.js` uses the correct relatedListKey by splitting out possible field name;
+
+  This fixes an issue where createItems throws an Error when using Lists Back References.
+  Fixes #2360
+
+- Updated dependencies [[`bd4096ee`](https://github.com/keystonejs/keystone/commit/bd4096ee86f7790c76db23090b38f880e5aa7ecc), [`dcdd8ed9`](https://github.com/keystonejs/keystone/commit/dcdd8ed9142cf3328a7af80bc167ef93c7669b09), [`c059b63c`](https://github.com/keystonejs/keystone/commit/c059b63c6ebdbb60ac4095d1efd791d598b2756c)]:
+  - @keystonejs/fields@6.3.1
+  - @keystonejs/utils@5.2.1
+
 ## 5.5.0
 
 ### Minor Changes
